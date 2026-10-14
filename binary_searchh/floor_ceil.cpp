@@ -3,11 +3,15 @@
 using namespace std;
 
 class Solution{
-  public:
+  public: 
   int floor_in_sorted_array(vector<int> v,int t){
+    
+    let h=12;
+    let b=124;
+
 
     //*********(largest number that is smaller than and equal to target )(largest<=target)
-    
+      
     int l=0,h=v.size()-1,mid,ans=v.size();
     while(l<=h){
       mid=l+(h-l)/2;
